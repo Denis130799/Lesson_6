@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *PushMeButton;
 @property (nonatomic, strong) NSTimer *timer;
@@ -70,6 +70,26 @@
     [self timer];
     self.PushMeButton.enabled = NO;
     
+}
+
+#pragma mark - Text Field Delegate
+
+- (BOOL)textFieldShouldClear:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if (textField.text.length + string.length > 5)
+    {
+        [self.PushMeButton setTitle:@"Max lenght must be 5" forState:UIControlStateNormal];
+        return NO;
+        
+    }
+    
+    return YES;
 }
 
 @end
