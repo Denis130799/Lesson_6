@@ -15,6 +15,7 @@
 		92DCF35A1F5082ED00CEE791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCF3581F5082ED00CEE791 /* LaunchScreen.storyboard */; };
 		92DCF3651F5082ED00CEE791 /* Lesson_6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCF3641F5082ED00CEE791 /* Lesson_6Tests.m */; };
 		92DCF3701F5082ED00CEE791 /* Lesson_6UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DCF36F1F5082ED00CEE791 /* Lesson_6UITests.m */; };
+		92F3E7FE1F52C521009D46C4 /* CoffeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F3E7FD1F52C521009D46C4 /* CoffeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		92DCF36B1F5082ED00CEE791 /* Lesson_6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson_6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DCF36F1F5082ED00CEE791 /* Lesson_6UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_6UITests.m; sourceTree = "<group>"; };
 		92DCF3711F5082ED00CEE791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F3E7FC1F52C521009D46C4 /* CoffeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeViewController.h; sourceTree = "<group>"; };
+		92F3E7FD1F52C521009D46C4 /* CoffeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				92DCF3581F5082ED00CEE791 /* LaunchScreen.storyboard */,
 				92DCF35B1F5082ED00CEE791 /* Info.plist */,
 				92DCF34A1F5082ED00CEE791 /* Supporting Files */,
+				92F3E7FC1F52C521009D46C4 /* CoffeViewController.h */,
+				92F3E7FD1F52C521009D46C4 /* CoffeViewController.m */,
 			);
 			path = Lesson_6;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				92DCF3521F5082ED00CEE791 /* ViewController.m in Sources */,
 				92DCF34F1F5082ED00CEE791 /* AppDelegate.m in Sources */,
+				92F3E7FE1F52C521009D46C4 /* CoffeViewController.m in Sources */,
 				92DCF34C1F5082ED00CEE791 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +515,7 @@
 				92DCF3761F5082ED00CEE791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DCF3771F5082ED00CEE791 /* Build configuration list for PBXNativeTarget "Lesson_6Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				92DCF3791F5082ED00CEE791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DCF37A1F5082ED00CEE791 /* Build configuration list for PBXNativeTarget "Lesson_6UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				92DCF37C1F5082ED00CEE791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
